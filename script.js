@@ -71,6 +71,69 @@ const treeData = [
         prerequisites: "Physician",
         skillDescription: "Potions you mix with beneficial effects have an additional 25% greater magnitude."
     },
+    {
+        name: "Experimenter",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Alchemy",
+        skillCost: 50,
+        prerequisites: "Benefactor",
+        skillDescription: "Eating an ingredient reveals the first two effects."
+    },
+    {
+        name: "Experimenter",
+        category: "Thief",
+        perkLevel: 2,
+        skillName: "Alchemy",
+        skillCost: 70,
+        prerequisites: "Benefactor",
+        skillDescription: "Eating an ingredient reveals the first three effects."
+    },
+    {
+        name: "Experimenter",
+        category: "Thief",
+        perkLevel: 3,
+        skillName: "Alchemy",
+        skillCost: 90,
+        prerequisites: "Benefactor",
+        skillDescription: "Eating an ingredient reveals the first four effects."
+    },
+    {
+        name: "Concentrated Poison",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Alchemy",
+        skillCost: 60,
+        prerequisites: "Poisoner",
+        skillDescription: "Poisons applied to weapons last for twice as many hits."
+    },
+    {
+        name: "Green Thumb",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Alchemy",
+        skillCost: 70,
+        prerequisites: "Concentrated Poison",
+        skillDescription: "Two ingredients are gathered from plants."
+    },
+    {
+        name: "Snakeblood",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Alchemy",
+        skillCost: 80,
+        prerequisites: "Concentrated Poison, Experimenter",
+        skillDescription: "50% resistance to all poisons."
+    },
+    {
+        name: "Purity",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Alchemy",
+        skillCost: 100,
+        prerequisites: "Snakeblood",
+        skillDescription: "All negative effects are removed from created potions while all positive effects are removed from created poisons."
+    },
 ]
 
 console.log(treeData);
