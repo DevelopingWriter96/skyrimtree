@@ -68,7 +68,7 @@ const treeData = [
         perkLevel: 1,
         skillName: "Light Armor",
         skillCost: 50,
-        prerequisites: "Custom Fit",
+        prerequisites: "Unhindered",
         skillDescription: "Stamina regenerates 50% faster in all Light Armor: head, chest, hands, feet."
     },
     {
@@ -88,6 +88,96 @@ const treeData = [
         skillCost: 100,
         prerequisites: "Wind Walker, Matching Set",
         skillDescription: "10% chance of avoiding all damage from a melee attack while wearing all Light Armor: head, chest, hands, feet."
+    },
+    {
+        name: "Novice Locks",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Lockpicking",
+        skillCost: 0,
+        prerequisites: "None",
+        skillDescription: "Novice locks are much easier to pick."
+    },
+    {
+        name: "Apprentice Locks",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Lockpicking",
+        skillCost: 20,
+        prerequisites: "Novice Locks",
+        skillDescription: "Apprentice locks are much easier to pick."
+    },
+    {
+        name: "Quick Hands",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Lockpicking",
+        skillCost: 40,
+        prerequisites: "Apprentice Locks",
+        skillDescription: "Able to pick locks without being noticed."
+    },
+    {
+        name: "Wax Key",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Lockpicking",
+        skillCost: 50,
+        prerequisites: "Quick Hands",
+        skillDescription: "Automatically gives you a copy of a picked lock's key if it has one."
+    },
+    {
+        name: "Adept Locks",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Lockpicking",
+        skillCost: 50,
+        prerequisites: "Apprentice Locks",
+        skillDescription: "Adept locks are much easier to pick."
+    },
+    {
+        name: "Golden Touch",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Lockpicking",
+        skillCost: 60,
+        prerequisites: "Adept Locks",
+        skillDescription: "Find more gold in chests."
+    },
+    {
+        name: "Treasure Hunter",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Lockpicking",
+        skillCost: 70,
+        prerequisites: "Golden Touch",
+        skillDescription: "50% greater chance of finding special treasure."
+    },
+    {
+        name: "Locksmith",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Lockpicking",
+        skillCost: 50,
+        prerequisites: "Expert Locks",
+        skillDescription: "Pick starts close to the lock opening position."
+    },
+    {
+        name: "Unbreakable",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Lockpicking",
+        skillCost: 100,
+        prerequisites: "Locksmith",
+        skillDescription: "Lockpicks never break."
+    },
+    {
+        name: "Master Locks",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Lockpicking",
+        skillCost: 100,
+        prerequisites: "Expert Locks",
+        skillDescription: "Master locks are much easier to pick."
     },
     {
         name: "Alchemist",
