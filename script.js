@@ -1,5 +1,95 @@
 const treeData = [
     {
+        name: "Agile Defender",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Light Armor",
+        skillCost: 0,
+        prerequisites: "none",
+        skillDescription: "	Increase armor rating for Light Armor by 20% (+20% per additional rank)."
+    },
+    {
+        name: "Agile Defender",
+        category: "Thief",
+        perkLevel: 2,
+        skillName: "Light Armor",
+        skillCost: 20,
+        prerequisites: "none",
+        skillDescription: "	Increase armor rating for Light Armor by 20% (+20% per additional rank)."
+    },
+    {
+        name: "Agile Defender",
+        category: "Thief",
+        perkLevel: 3,
+        skillName: "Light Armor",
+        skillCost: 40,
+        prerequisites: "none",
+        skillDescription: "	Increase armor rating for Light Armor by 20% (+20% per additional rank)."
+    },
+    {
+        name: "Agile Defender",
+        category: "Thief",
+        perkLevel: 5,
+        skillName: "Light Armor",
+        skillCost: 60,
+        prerequisites: "none",
+        skillDescription: "	Increase armor rating for Light Armor by 20% (+20% per additional rank)."
+    },
+    {
+        name: "Agile Defender",
+        category: "Thief",
+        perkLevel: 4,
+        skillName: "Light Armor",
+        skillCost: 80,
+        prerequisites: "none",
+        skillDescription: "	Increase armor rating for Light Armor by 20% (+20% per additional rank)."
+    },
+    {
+        name: "Custom Fit",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Light Armor",
+        skillCost: 30,
+        prerequisites: "Agile Defender",
+        skillDescription: "25% armor bonus if wearing all Light Armor: head, chest, hands, feet."
+    },
+    {
+        name: "Undhindered",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Light Armor",
+        skillCost: 50,
+        prerequisites: "Custom Fit",
+        skillDescription: "Light Armor weighs nothing and doesn't slow you down when worn."
+    },
+    {
+        name: "Wind Walker",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Light Armor",
+        skillCost: 50,
+        prerequisites: "Custom Fit",
+        skillDescription: "Stamina regenerates 50% faster in all Light Armor: head, chest, hands, feet."
+    },
+    {
+        name: "Matching Set",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Light Armor",
+        skillCost: 70,
+        prerequisites: "Custom Fit",
+        skillDescription: "Additional 25% Armor bonus if wearing a matched set of Light Armor."
+    },
+    {
+        name: "Deft Movement",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Light Armor",
+        skillCost: 100,
+        prerequisites: "Wind Walker, Matching Set",
+        skillDescription: "10% chance of avoiding all damage from a melee attack while wearing all Light Armor: head, chest, hands, feet."
+    },
+    {
         name: "Alchemist",
         category: "Thief",
         perkLevel: 1,
@@ -134,6 +224,7 @@ const treeData = [
         prerequisites: "Snakeblood",
         skillDescription: "All negative effects are removed from created potions while all positive effects are removed from created poisons."
     },
+
 ]
 
 console.log(treeData);
