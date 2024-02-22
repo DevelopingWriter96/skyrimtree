@@ -29,7 +29,7 @@ const treeData = [
     {
         name: "Agile Defender",
         category: "Thief",
-        perkLevel: 5,
+        perkLevel: 4,
         skillName: "Light Armor",
         skillCost: 60,
         prerequisites: "none",
@@ -38,7 +38,7 @@ const treeData = [
     {
         name: "Agile Defender",
         category: "Thief",
-        perkLevel: 4,
+        perkLevel: 5,
         skillName: "Light Armor",
         skillCost: 80,
         prerequisites: "none",
@@ -178,6 +178,42 @@ const treeData = [
         skillCost: 100,
         prerequisites: "Expert Locks",
         skillDescription: "Master locks are much easier to pick."
+    },
+    {
+        name: "Light Fingers",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Pickpocket",
+        skillCost: 0,
+        prerequisites: "None",
+        skillDescription: "Pickpocketing bonus of 20%. Item weight and value reduce pickpocketing odds (+20% per additional rank)."
+    },
+    {
+        name: "Light Fingers",
+        category: "Thief",
+        perkLevel: 2,
+        skillName: "Pickpocket",
+        skillCost: 20,
+        prerequisites: "None",
+        skillDescription: "Pickpocketing bonus of 20%. Item weight and value reduce pickpocketing odds (+20% per additional rank)."
+    },
+    {
+        name: "Light Fingers",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Pickpocket",
+        skillCost: 0,
+        prerequisites: "None",
+        skillDescription: "Pickpocketing bonus of 20%. Item weight and value reduce pickpocketing odds (+20% per additional rank)."
+    },
+    {
+        name: "Light Fingers",
+        category: "Thief",
+        perkLevel: 3,
+        skillName: "Pickpocket",
+        skillCost: 40,
+        prerequisites: "None",
+        skillDescription: "Pickpocketing bonus of 20%. Item weight and value reduce pickpocketing odds (+20% per additional rank)."
     },
     {
         name: "Alchemist",
