@@ -422,6 +422,123 @@ const treeData = [
         prerequisites: "Misdirection",
         skillDescription: "Can pickpocket equipped items, clothes and armor (when hidden)."
     },
+    {
+        name: "Stealth",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Sneak",
+        skillCost: 0,
+        prerequisites: "None",
+        skillDescription: "You are 20% harder to detect when sneaking (+5% per additional rank, max 40% with 5/5)."
+    },
+    {
+        name: "Stealth",
+        category: "Thief",
+        perkLevel: 2,
+        skillName: "Sneak",
+        skillCost: 20,
+        prerequisites: "None",
+        skillDescription: "You are 20% harder to detect when sneaking (+5% per additional rank, max 40% with 5/5)."
+    },
+    {
+        name: "Stealth",
+        category: "Thief",
+        perkLevel: 3,
+        skillName: "Sneak",
+        skillCost: 40,
+        prerequisites: "None",
+        skillDescription: "You are 20% harder to detect when sneaking (+5% per additional rank, max 40% with 5/5)."
+    },
+    {
+        name: "Stealth",
+        category: "Thief",
+        perkLevel: 4,
+        skillName: "Sneak",
+        skillCost: 60,
+        prerequisites: "None",
+        skillDescription: "You are 20% harder to detect when sneaking (+5% per additional rank, max 40% with 5/5)."
+    },
+    {
+        name: "Stealth",
+        category: "Thief",
+        perkLevel: 5,
+        skillName: "Sneak",
+        skillCost: 80,
+        prerequisites: "None",
+        skillDescription: "You are 20% harder to detect when sneaking (+5% per additional rank, max 40% with 5/5)."
+    },
+    {
+        name: "Muffled Movement",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Sneak",
+        skillCost: 30,
+        prerequisites: "Stealth",
+        skillDescription: "Noise from armor is reduced by 50%."
+    },
+    {
+        name: "Backstab",
+        category: "Thief",
+        perkLevel: 3,
+        skillName: "Sneak",
+        skillCost: 30,
+        prerequisites: "Stealth",
+        skillDescription: "Sneak attacks with one-handed weapons now do six times damage. This bonus stacks with the Shrouded Gloves enchantment, giving 12 times normal damage. It can also apply to the Berserker Rage power, offering 12 times normal damage, or 24 times normal damage with both Shrouded Gloves and the race power active."
+    },
+    {
+        name: "Lightfoot",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Sneak",
+        skillCost: 40,
+        prerequisites: "Muffled Movement",
+        skillDescription: "You won't trigger pressure plates."
+    },
+    {
+        name: "Deadly Aim",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Sneak",
+        skillCost: 40,
+        prerequisites: "Backstab",
+        skillDescription: "	Sneak attacks with bows now do three times damage. Can apply to the Berserker Rage power, offering 6 times normal damage."
+    },
+    {
+        name: "Silent Roll",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Sneak",
+        skillCost: 50,
+        prerequisites: "Light Foot",
+        skillDescription: "Sprinting while sneaking executes a silent forward roll."
+    },
+    {
+        name: "Assassin's Blade",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Sneak",
+        skillCost: 50,
+        prerequisites: "None",
+        skillDescription: "Deadly Aim."
+    },
+    {
+        name: "Silence",
+        category: "Thief",
+        perkLevel: 5,
+        skillName: "Sneak",
+        skillCost: 70,
+        prerequisites: "Silent Roll",
+        skillDescription: "Walking and running does not affect detection."
+    },
+    {
+        name: "Shadow Warrior",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Sneak",
+        skillCost: 30,
+        prerequisites: "Silence",
+        skillDescription: "Crouching stops combat for a moment and forces distant opponents to search for a target."
+    },
 ]
 
 console.log(treeData);
