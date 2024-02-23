@@ -539,6 +539,123 @@ const treeData = [
         prerequisites: "Silence",
         skillDescription: "Crouching stops combat for a moment and forces distant opponents to search for a target."
     },
+    {
+        name: "Haggling",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Speech",
+        skillCost: 0,
+        prerequisites: "None",
+        skillDescription: "Buying and selling prices are 10% better (+5% per additional rank)."
+    },
+    {
+        name: "Haggling",
+        category: "Thief",
+        perkLevel: 2,
+        skillName: "Speech",
+        skillCost: 20,
+        prerequisites: "None",
+        skillDescription: "Buying and selling prices are 10% better (+5% per additional rank)."
+    },
+    {
+        name: "Haggling",
+        category: "Thief",
+        perkLevel: 3,
+        skillName: "Speech",
+        skillCost: 40,
+        prerequisites: "None",
+        skillDescription: "Buying and selling prices are 10% better (+5% per additional rank)."
+    },
+    {
+        name: "Haggling",
+        category: "Thief",
+        perkLevel: 4,
+        skillName: "Speech",
+        skillCost: 60,
+        prerequisites: "None",
+        skillDescription: "Buying and selling prices are 10% better (+5% per additional rank)."
+    },
+    {
+        name: "Haggling",
+        category: "Thief",
+        perkLevel: 5,
+        skillName: "Speech",
+        skillCost: 80,
+        prerequisites: "None",
+        skillDescription: "Buying and selling prices are 10% better (+5% per additional rank)."
+    },
+    {
+        name: "Allure",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Speech",
+        skillCost: 30,
+        prerequisites: "Haggling",
+        skillDescription: "10% better prices with the opposite sex."
+    },
+    {
+        name: "Bribery",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Speech",
+        skillCost: 30,
+        prerequisites: "Haggling",
+        skillDescription: "Can bribe guards to ignore crimes."
+    },
+    {
+        name: "Merchant",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Speech",
+        skillCost: 50,
+        prerequisites: "Allure",
+        skillDescription: "Can sell any type of item to any kind of merchant."
+    },
+    {
+        name: "Persuasion",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Speech",
+        skillCost: 50,
+        prerequisites: "Bribery",
+        skillDescription: "Persuasion attempts are 30% easier."
+    },
+    {
+        name: "Investor",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Speech",
+        skillCost: 70,
+        prerequisites: "Merchant",
+        skillDescription: "Can invest 500 gold with a shopkeeper to increase their available gold permanently."
+    },
+    {
+        name: "Intimidation",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Speech",
+        skillCost: 70,
+        prerequisites: "Persuasion",
+        skillDescription: "Intimidation is twice as successful."
+    },
+    {
+        name: "Fence",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Speech",
+        skillCost: 90,
+        prerequisites: "Investor",
+        skillDescription: "Can barter stolen goods with any merchant the Dragonborn has invested in."
+    },
+    {
+        name: "Master Trader",
+        category: "Thief",
+        perkLevel: 1,
+        skillName: "Speech",
+        skillCost: 100,
+        prerequisites: "Fence",
+        skillDescription: "Every merchant in the world gains 1000 gold for bartering."
+    },
 ]
 
 console.log(treeData);
