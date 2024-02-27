@@ -656,6 +656,274 @@ const treeData = [
         prerequisites: "Fence",
         skillDescription: "Every merchant in the world gains 1000 gold for bartering."
     },
+    {
+        name: "Overdraw",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Archery",
+        skillCost: 0,
+        prerequisites: "None",
+        skillDescription: "Bows do 20% more damage (+20% per additional rank)."
+    },
+    {
+        name: "Overdraw",
+        category: "Warrior",
+        perkLevel: 2,
+        skillName: "Archery",
+        skillCost: 20,
+        prerequisites: "None",
+        skillDescription: "Bows do 20% more damage (+20% per additional rank)."
+    },
+    {
+        name: "Overdraw",
+        category: "Warrior",
+        perkLevel: 3,
+        skillName: "Archery",
+        skillCost: 40,
+        prerequisites: "None",
+        skillDescription: "Bows do 20% more damage (+20% per additional rank)."
+    },
+    {
+        name: "Overdraw",
+        category: "Warrior",
+        perkLevel: 4,
+        skillName: "Archery",
+        skillCost: 60,
+        prerequisites: "None",
+        skillDescription: "Bows do 20% more damage (+20% per additional rank)."
+    },
+    {
+        name: "Overdraw",
+        category: "Warrior",
+        perkLevel: 5,
+        skillName: "Archery",
+        skillCost: 80,
+        prerequisites: "None",
+        skillDescription: "Bows do 20% more damage (+20% per additional rank)."
+    },
+    {
+        name: "Eagle Eye",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Archery",
+        skillCost: 30,
+        prerequisites: "Overdraw",
+        skillDescription: "Pressing Block while aiming will zoom in your view."
+    },
+    {
+        name: "Critical Shot",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Archery",
+        skillCost: 30,
+        prerequisites: "Overdraw",
+        skillDescription: "10% chance of a critical hit that does extra damage (+5% chance and +25% critical damage per additional rank)."
+    },
+    {
+        name: "Critical Shot",
+        category: "Warrior",
+        perkLevel: 2,
+        skillName: "Archery",
+        skillCost: 60,
+        prerequisites: "Overdraw",
+        skillDescription: "10% chance of a critical hit that does extra damage (+5% chance and +25% critical damage per additional rank)."
+    },
+    {
+        name: "Critical Shot",
+        category: "Warrior",
+        perkLevel: 3,
+        skillName: "Archery",
+        skillCost: 90,
+        prerequisites: "Overdraw",
+        skillDescription: "10% chance of a critical hit that does extra damage (+5% chance and +25% critical damage per additional rank)."
+    },
+    {
+        name: "Steady Hand",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Archery",
+        skillCost: 40,
+        prerequisites: "Eagle Eye",
+        skillDescription: "Zooming in with a bow slows time by 25% (50% for second rank)."
+    },
+    {
+        name: "Steady Hand",
+        category: "Warrior",
+        perkLevel: 2,
+        skillName: "Archery",
+        skillCost: 60,
+        prerequisites: "Eagle Eye",
+        skillDescription: "Zooming in with a bow slows time by 25% (50% for second rank)."
+    },
+    {
+        name: "Power Shot",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Archery",
+        skillCost: 50,
+        prerequisites: "Eagle Eye",
+        skillDescription: "Arrows stagger all but the largest opponents 50% of the time."
+    },
+    {
+        name: "Hunter's Discipline",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Archery",
+        skillCost: 50,
+        prerequisites: "Critical Shot",
+        skillDescription: "Recover twice as many arrows from dead bodies."
+    },
+    {
+        name: "Ranger",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Archery",
+        skillCost: 60,
+        prerequisites: "Hunter's Discipline",
+        skillDescription: "Able to move faster with a drawn bow."
+    },
+    {
+        name: "Quick Shot",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Archery",
+        skillCost: 70,
+        prerequisites: "Power Shot",
+        skillDescription: "Can draw a bow 30% faster."
+    },
+    {
+        name: "Bullseye",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Archery",
+        skillCost: 100,
+        prerequisites: "Quick Shot or Ranger",
+        skillDescription: "15% chance of paralyzing the target for a few seconds."
+    },
+    {
+        name: "Bullseye",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Archery",
+        skillCost: 100,
+        prerequisites: "Quick Shot or Ranger",
+        skillDescription: "15% chance of paralyzing the target for a few seconds."
+    },
+    {
+        name: "Shield Wall",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Block",
+        skillCost: 0,
+        prerequisites: "None",
+        skillDescription: "Blocking is 20% more effective (+5% per additional rank)."
+    },{
+        name: "Shield Wall",
+        category: "Warrior",
+        perkLevel: 2,
+        skillName: "Block",
+        skillCost: 20,
+        prerequisites: "None",
+        skillDescription: "Blocking is 20% more effective (+5% per additional rank)."
+    },
+    {
+        name: "Shield Wall",
+        category: "Warrior",
+        perkLevel: 3,
+        skillName: "Block",
+        skillCost: 40,
+        prerequisites: "None",
+        skillDescription: "Blocking is 20% more effective (+5% per additional rank)."
+    },
+    {
+        name: "Shield Wall",
+        category: "Warrior",
+        perkLevel: 4,
+        skillName: "Block",
+        skillCost: 60,
+        prerequisites: "None",
+        skillDescription: "Blocking is 20% more effective (+5% per additional rank)."
+    },
+    {
+        name: "Shield Wall",
+        category: "Warrior",
+        perkLevel: 5,
+        skillName: "Block",
+        skillCost: 80,
+        prerequisites: "None",
+        skillDescription: "Blocking is 20% more effective (+5% per additional rank)."
+    },
+    {
+        name: "Deflect Arrows",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Block",
+        skillCost: 30,
+        prerequisites: "Shield Wall",
+        skillDescription: "Arrows that hit the shield do no damage."
+    },{
+        name: "Quick Reflexes",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Block",
+        skillCost: 30,
+        prerequisites: "Shield Wall",
+        skillDescription: "Time slows down if you are blocking during an enemy's power attack."
+    },
+    {
+        name: "Power Bash",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Block",
+        skillCost: 30,
+        prerequisites: "Shield Wall",
+        skillDescription: "Able to do a power bash."
+    },
+    {
+        name: "Elemental Protection",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Block",
+        skillCost: 50,
+        prerequisites: "Deflect Arrows",
+        skillDescription: "Blocking with a shield reduces incoming fire, frost and shock damage by 50%."
+    },
+    {
+        name: "Deadly Bash",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Block",
+        skillCost: 50,
+        prerequisites: "Power Bash",
+        skillDescription: "Bashing does five times more damage."
+    },
+    {
+        name: "Block Runner",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Block",
+        skillCost: 70,
+        prerequisites: "Shield Wall",
+        skillDescription: "Able to move faster with a shield or weapon raised."
+    },
+    {
+        name: "Disarming Bash",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Block",
+        skillCost: 70,
+        prerequisites: "Disarming Bash",
+        skillDescription: "Chance to disarm when power bashing (50% chance)."
+    },
+    {
+        name: "Shield Charge",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Block",
+        skillCost: 100,
+        prerequisites: "Block Runner",
+        skillDescription: "Sprinting with a shield raised knocks down most targets."
+    },
 ]
 
 console.log(treeData);
