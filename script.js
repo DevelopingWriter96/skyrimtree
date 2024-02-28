@@ -924,6 +924,114 @@ const treeData = [
         prerequisites: "Block Runner",
         skillDescription: "Sprinting with a shield raised knocks down most targets."
     },
+    {
+        name: "Juggernaught",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Heavy Armor",
+        skillCost: 0,
+        prerequisites: "None",
+        skillDescription: "Increases armor rating for Heavy Armor by 20%."
+    },
+    {
+        name: "Juggernaught",
+        category: "Warrior",
+        perkLevel: 2,
+        skillName: "Heavy Armor",
+        skillCost: 20,
+        prerequisites: "None",
+        skillDescription: "Increases armor rating for Heavy Armor by 40%."
+    },
+    {
+        name: "Juggernaught",
+        category: "Warrior",
+        perkLevel: 3,
+        skillName: "Heavy Armor",
+        skillCost: 40,
+        prerequisites: "None",
+        skillDescription: "Increases armor rating for Heavy Armor by 60%."
+    },
+    {
+        name: "Juggernaught",
+        category: "Warrior",
+        perkLevel: 4,
+        skillName: "Heavy Armor",
+        skillCost: 60,
+        prerequisites: "None",
+        skillDescription: "Increases armor rating for Heavy Armor by 80%."
+    },
+    {
+        name: "Juggernaught",
+        category: "Warrior",
+        perkLevel: 5,
+        skillName: "Heavy Armor",
+        skillCost: 80,
+        prerequisites: "None",
+        skillDescription: "Increases armor rating for Heavy Armor by 100%."
+    },
+    {
+        name: "Fists of Steel",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Heavy Armor",
+        skillCost: 30,
+        prerequisites: "Juggernaught",
+        skillDescription: "Unarmed attacks with Heavy Armor gauntlets do their armor rating in extra damage."
+    },
+    {
+        name: "Well Fitted",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Heavy Armor",
+        skillCost: 30,
+        prerequisites: "Juggernaught",
+        skillDescription: "25% Armor bonus if wearing all Heavy Armor: head, chest, hands, feet."
+    },
+    {
+        name: "Cushioned",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Heavy Armor",
+        skillCost: 50,
+        prerequisites: "Fists of Steel",
+        skillDescription: "Half damage from falling if wearing all Heavy Armor: head, chest, hands, feet."
+    },
+    {
+        name: "Tower of Strength",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Heavy Armor",
+        skillCost: 50,
+        prerequisites: "Well Fitted",
+        skillDescription: "50% less stagger when wearing only Heavy Armor."
+    },
+    {
+        name: "Conditioning",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Heavy Armor",
+        skillCost: 70,
+        prerequisites: "Cushioned",
+        skillDescription: "Heavy Armor weighs nothing and doesn't slow you down when worn."
+    },
+    {
+        name: "Matching Set",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Heavy Armor",
+        skillCost: 70,
+        prerequisites: "Tower of Strength",
+        skillDescription: "Additional 25% Armor bonus if wearing a matched set of Heavy Armor."
+    },
+    {
+        name: "Reflect Blows",
+        category: "Warrior",
+        perkLevel: 1,
+        skillName: "Heavy Armor",
+        skillCost: 100,
+        prerequisites: "Matching Set",
+        skillDescription: "10% chance to reflect melee damage back to the enemy while wearing all Heavy Armor: head, chest, hands, feet."
+    },
 ]
 
 console.log(treeData);
